@@ -1,0 +1,188 @@
+body{
+    margin:0;
+    font-family:Arial;
+    background:#f5f7fb;
+}
+
+/* LOGIN + SIGNUP */
+.auth-page{
+    display:flex;
+    height:100vh;
+}
+
+.left-panel{
+    flex:1;
+    background:linear-gradient(135deg,#2563eb,#1e3a8a);
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:40px;
+}
+
+.left-panel h1{
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+.left-panel p{
+    font-size:18px;
+    opacity:0.9;
+}
+
+.auth-box{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background:white;
+    padding:40px;
+}
+
+.auth-box h2{
+    font-size:32px;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    color:gray;
+    margin-bottom:25px;
+}
+
+.auth-box input{
+    width:320px;
+    padding:14px;
+    margin:10px 0;
+    border:1px solid #d1d5db;
+    border-radius:10px;
+    font-size:15px;
+}
+
+.auth-box button{
+    width:320px;
+    padding:14px;
+    margin-top:12px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    border-radius:10px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.signup-btn{
+    background:#16a34a;
+}
+
+/* DASHBOARD */
+.dashboard{
+    display:none;
+}
+
+.sidebar{
+    width:220px;
+    height:100vh;
+    background:#0f172a;
+    color:white;
+    position:fixed;
+    padding:20px;
+}
+
+.sidebar button{
+    margin-top:20px;
+    width:100%;
+    padding:10px;
+    background:#2563eb;
+    border:none;
+    color:white;
+    border-radius:8px;
+}
+
+.main{
+    margin-left:240px;
+    padding:30px;
+}
+
+.content{
+    display:flex;
+    gap:20px;
+}
+
+.booking-card{
+    background:white;
+    padding:30px;
+    border-radius:16px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+    flex:1;
+}
+
+.booking-card h3{
+    margin-bottom:25px;
+}
+
+.form-group{
+    margin-bottom:18px;
+}
+
+.form-group label{
+    display:block;
+    margin-bottom:8px;
+    font-weight:600;
+}
+
+.form-group input,
+.form-group select{
+    width:100%;
+    padding:14px;
+    border:1px solid #d1d5db;
+    border-radius:10px;
+}
+
+.fee-box{
+    margin-top:15px;
+    margin-bottom:20px;
+    background:#f0fdf4;
+    color:#15803d;
+    padding:14px;
+    border-radius:10px;
+    font-weight:bold;
+    text-align:center;
+}
+
+.booking-card button{
+    width:100%;
+    padding:14px;
+    background:linear-gradient(90deg,#2563eb,#1d4ed8);
+    color:white;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+.token-box{
+    margin-top:15px;
+    padding:15px;
+    background:#e0f2fe;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+.history-card{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+    flex:1;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th,td{
+    padding:12px;
+    border-bottom:1px solid #ddd;
+}
